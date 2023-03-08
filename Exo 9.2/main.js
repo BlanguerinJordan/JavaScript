@@ -1,3 +1,6 @@
+var monbutton = document.getElementById("button");
+monbutton.addEventListener("click",Hello);
+
 function Hello(){
     var madiv = document.getElementsByTagName("div");
     
