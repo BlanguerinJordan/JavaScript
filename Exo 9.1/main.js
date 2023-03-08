@@ -1,8 +1,6 @@
-function Hello(texte){
+function Hello(){
     var madiv = document.getElementsByName("salut");
     madiv.forEach(element => {
-        element.innerHTML = texte
+        element.innerHTML = "Hello"
     });
-    
-}
-Hello("Hello");
+};
